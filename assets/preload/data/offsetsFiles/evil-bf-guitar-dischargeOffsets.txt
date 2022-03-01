@@ -1,0 +1,12 @@
+guitar2 -40 53
+guitar10 -40 50
+guitar3 -10 80
+guitar4 -40 40
+guitarSmash 110 140
+guitar5 -17 17
+idle 0 0
+guitar6 -30 50
+guitar7 -20 80
+guitar8 -30 40
+guitar9 -10 10
+guitar1 0 0

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="ZapEffect.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Zap0000" x="0" y="0" width="1971" height="1925"/>
+	<SubTexture name="Zap0001" x="1971" y="0" width="1971" height="1925"/>
+	<SubTexture name="Zap0002" x="3942" y="0" width="1971" height="1925"/>
+	<SubTexture name="Zap0003" x="5913" y="0" width="1971" height="1925"/>
+	<SubTexture name="Zap0004" x="0" y="1925" width="1971" height="1925"/>
+	<SubTexture name="Zap0005" x="1971" y="1925" width="1971" height="1925"/>
+	<SubTexture name="Zap0006" x="3942" y="1925" width="1971" height="1925"/>
+	<SubTexture name="Zap0007" x="5913" y="1925" width="1971" height="1925"/>
+	<SubTexture name="Zap0008" x="0" y="3850" width="1971" height="1925"/>
+	<SubTexture name="Zap0009" x="1971" y="3850" width="1971" height="1925"/>
+	<SubTexture name="Zap0010" x="3942" y="3850" width="1971" height="1925"/>
+	<SubTexture name="Zap0011" x="5913" y="3850" width="1971" height="1925"/>
+	<SubTexture name="Zap0012" x="5913" y="5775" width="100" height="100"/>
+</TextureAtlas>

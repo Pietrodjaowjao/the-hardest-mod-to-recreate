@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="SoulBFPortal.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Idle0000" x="0" y="0" width="1920" height="1080" frameX="0" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0001" x="1920" y="0" width="1906" height="1081" frameX="-7" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0002" x="3826" y="0" width="1901" height="1080" frameX="-9" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0003" x="5727" y="0" width="1883" height="1080" frameX="-19" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0004" x="0" y="1081" width="1883" height="1080" frameX="-19" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0005" x="1883" y="1081" width="1883" height="1080" frameX="-19" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0006" x="3766" y="1081" width="1876" height="1080" frameX="-22" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0007" x="5642" y="1081" width="1864" height="1080" frameX="-27" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0008" x="0" y="2161" width="1860" height="1080" frameX="-30" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0009" x="1860" y="2161" width="1855" height="1080" frameX="-33" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0010" x="3715" y="2161" width="1855" height="1080" frameX="-33" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0011" x="5570" y="2161" width="1848" height="1080" frameX="-37" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0012" x="0" y="3241" width="1839" height="1080" frameX="-41" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0013" x="1839" y="3241" width="1833" height="1080" frameX="-44" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0014" x="3672" y="3241" width="1833" height="1080" frameX="-44" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0015" x="5505" y="3241" width="1817" height="1080" frameX="-52" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0016" x="0" y="4321" width="1811" height="1080" frameX="-55" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0017" x="1811" y="4321" width="1811" height="1080" frameX="-55" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0018" x="3622" y="4321" width="1805" height="1080" frameX="-58" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0019" x="5427" y="4321" width="1809" height="1080" frameX="-56" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0020" x="0" y="5401" width="1810" height="1080" frameX="-55" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0021" x="1810" y="5401" width="1807" height="1080" frameX="-57" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0022" x="3617" y="5401" width="1798" height="1080" frameX="-61" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0023" x="5415" y="5401" width="1792" height="1080" frameX="-64" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0024" x="0" y="6481" width="1792" height="1080" frameX="-65" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0025" x="1792" y="6481" width="1789" height="1080" frameX="-66" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0026" x="3581" y="6481" width="1783" height="1080" frameX="-69" frameY="0" frameWidth="1920" frameHeight="1081"/>
+	<SubTexture name="Idle0027" x="5364" y="6481" width="1779" height="1080" frameX="-72" frameY="0" frameWidth="1920" frameHeight="1081"/>
+</TextureAtlas>

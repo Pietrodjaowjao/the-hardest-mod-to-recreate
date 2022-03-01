@@ -1,0 +1,2 @@
+tutorial:playable-gf:0
+discharge:evil-bf-poof:1

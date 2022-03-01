@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Soul_BF_Guitar_Play_2.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Evil Bf Play Guitar istanza 10000" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10001" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10002" x="730" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10003" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10004" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10005" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10006" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10007" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10008" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10009" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10010" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10011" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10012" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10013" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10014" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10015" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10016" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10017" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10018" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10019" x="0" y="1417" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10020" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10021" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10022" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10023" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10024" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10025" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10026" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10027" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10028" x="730" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10029" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10030" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10031" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10032" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10033" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10034" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10035" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10036" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10037" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10038" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10039" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10040" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10041" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10042" x="0" y="1417" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10043" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10044" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10045" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10046" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10047" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10048" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10049" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10050" x="730" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10051" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10052" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10053" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10054" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10055" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10056" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10057" x="0" y="1417" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10058" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10059" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10060" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10061" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10062" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10063" x="730" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10064" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10065" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10066" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10067" x="0" y="1417" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10068" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10069" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10070" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10071" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10072" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10073" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10074" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10075" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10076" x="730" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10077" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10078" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10079" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10080" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10081" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10082" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10083" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10084" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10085" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10086" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10087" x="2339" y="1417" width="781" height="1416" frameX="0" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10088" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10089" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10090" x="0" y="1417" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10091" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10092" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10093" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10094" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10095" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10096" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10097" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10098" x="730" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10099" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10100" x="1460" y="0" width="766" height="1408" frameX="-15" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10101" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10102" x="2226" y="0" width="772" height="1404" frameX="-9" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10103" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10104" x="2998" y="0" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10105" x="0" y="1417" width="778" height="1400" frameX="-3" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10106" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10107" x="778" y="1417" width="780" height="1407" frameX="-1" frameY="0" frameWidth="781" frameHeight="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10108" x="1558" y="1417" width="781" height="1419"/>
+	<SubTexture name="Evil Bf Play Guitar istanza 10109" x="0" y="0" width="730" height="1417" frameX="-51" frameY="0" frameWidth="781" frameHeight="1419"/>
+</TextureAtlas>

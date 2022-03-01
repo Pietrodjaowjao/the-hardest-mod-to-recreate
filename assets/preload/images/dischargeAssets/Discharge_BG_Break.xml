@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Discharge_BG_Break.png">
+	<!-- Created with Adobe Animate version 21.0.9.42677 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Break0000" x="0" y="0" width="2560" height="1400"/>
+	<SubTexture name="Break0001" x="2560" y="0" width="2560" height="1400"/>
+	<SubTexture name="Break0002" x="5120" y="0" width="2560" height="1400"/>
+	<SubTexture name="Break0003" x="0" y="1400" width="2560" height="1400"/>
+	<SubTexture name="Break0004" x="2560" y="1400" width="2560" height="1400"/>
+	<SubTexture name="Break0005" x="5120" y="1400" width="2560" height="1400"/>
+	<SubTexture name="Break0006" x="0" y="2800" width="2560" height="1400"/>
+	<SubTexture name="Break0007" x="2560" y="2800" width="2560" height="1400"/>
+	<SubTexture name="Break0008" x="5120" y="2800" width="2560" height="1400"/>
+	<SubTexture name="Break0009" x="0" y="4200" width="2560" height="1400"/>
+	<SubTexture name="Break0010" x="2560" y="4200" width="2560" height="1400"/>
+	<SubTexture name="Break0011" x="5120" y="4200" width="2560" height="1400"/>
+	<SubTexture name="Break0012" x="0" y="5600" width="2560" height="1400"/>
+	<SubTexture name="Break0013" x="2560" y="5600" width="2560" height="1400"/>
+	<SubTexture name="Break0014" x="5120" y="5600" width="2560" height="1400"/>
+	<SubTexture name="Break0015" x="5120" y="5600" width="2560" height="1400"/>
+</TextureAtlas>
