@@ -1,23 +1,23 @@
 package;
 
+import flixel.FlxG;
 import flixel.FlxSprite;
-import utils.AndroidData;
+import openfl.utils.Assets as OpenFlAssets;
+
+using StringTools;
 
 class HealthIcon extends FlxSprite
 {
+	public var char:String = 'bf';
+	public var isPlayer:Bool = false;
+	public var isOldIcon:Bool = false;
+
 	/**
 	 * Used for FreeplayState! If you use it elsewhere, prob gonna annoying
 	 */
 	public var sprTracker:FlxSprite;
-	var data:AndroidData = new AndroidData();
 
-	public var iconScale:Float = 1;
-	public var iconSize:Float;
-	public var defaultIconScale:Float = 1;
-
-	var pixelIcons:Array<String> = ["bf-pixel", "senpai", "senpai-angry", "spirit"];
-
-	public function new(char:String = 'bf', isPlayer:Bool = false)
+	public function new(?char:String = "bf", ?isPlayer:Bool = false)
 	{
 		super();
 		loadGraphic(Paths.image('iconGrid'), true, 150, 150);

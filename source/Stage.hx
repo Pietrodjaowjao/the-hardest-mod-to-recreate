@@ -98,7 +98,7 @@ class Stage extends MusicBeatState
 						light.setGraphicSize(Std.int(light.width * 0.85));
 						light.updateHitbox();
 						light.antialiasing = FlxG.save.data.antialiasing;
-						phillyCityLights.add(light);
+						phillyCityLights.toAdd.push(light);
 					}
 
 					var streetBehind:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.loadImage('philly/behindTrain', 'week3'));
@@ -113,7 +113,7 @@ class Stage extends MusicBeatState
 					}
 
 					trainSound = new FlxSound().loadEmbedded(Paths.sound('train_passes', 'shared'));
-					FlxG.sound.list.add(trainSound);
+					FlxG.sound.list.toAdd.push(trainSound);
 
 					// var cityLights:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.win0.png);
 
@@ -121,15 +121,17 @@ class Stage extends MusicBeatState
 					swagBacks['street'] = street;
 					toAdd.push(street);
 				}
-                          case 'BFMind':
-                          defaultCamZoom = 0.85;
+			case 'BFMind3':
+				{
+
+                          CamZoom = 0.85;
 
                           neurosesbg = new FlxSprite(-600, -125).loadGraphic(Paths.image('dischargeAssets/Discharge_End_BG'));
                           neurosesbg.updateHitbox();
                           neurosesbg.antialiasing = true;
                           neurosesbg.scrollFactor.set(0.9, 0.9);
                           neurosesbg.active = false;
-                          add(neurosesbg);
+                          toAdd.push(neurosesbg);
 
                           var funnytv:FlxSprite = new FlxSprite(215, 25);
                           funnytv.frames = Paths.getSparrowAtlas('dischargeAssets/Discharge_TV');
@@ -137,35 +139,35 @@ class Stage extends MusicBeatState
                           funnytv.animation.play('idle');
                           funnytv.scrollFactor.set(0.9, 0.9);
                           funnytv.setGraphicSize(Std.int(funnytv.width * 1));
-                          add(funnytv);
+                          toAdd.push(funnytv);
 
 						funnyWhite = new FlxSprite(-850, -400).loadGraphic(Paths.image('dischargeAssets/leFunnyWhite'));
 						funnyWhite.setGraphicSize(Std.int(funnyWhite.width * 9));
 						funnyWhite.antialiasing = true;
 						funnyWhite.scrollFactor.set(0.9, 0.9);
 						funnyWhite.active = false;
-						add(funnyWhite);
+						toAdd.push(funnyWhite);
 
 						cave3 = new FlxSprite(-850, -400).loadGraphic(Paths.image('dischargeAssets/Discharge_Sky'));
 						cave3.setGraphicSize(Std.int(cave3.width * 0.9));
 						cave3.antialiasing = true;
 						cave3.scrollFactor.set(0.9, 0.9);
 						cave3.active = false;
-						add(cave3);
+						toAdd.push(cave3);
 
 						cave2 = new FlxSprite(-600, 100).loadGraphic(Paths.image('dischargeAssets/Discharge_Mountains'));
 						cave2.setGraphicSize(Std.int(cave2.width * 0.9));
 						cave2.antialiasing = true;
 						cave2.scrollFactor.set(0.9, 0.9);
 						cave2.active = false;
-						add(cave2);
+						toAdd.push(cave2);
 
 						cave1 = new FlxSprite(-960, -500).loadGraphic(Paths.image('dischargeAssets/Discharge_Floor'));
 						cave1.setGraphicSize(Std.int(cave1.width * 0.9));
 						cave1.antialiasing = true;
 						cave1.scrollFactor.set(0.9, 0.9);
 						cave1.active = false;
-						add(cave1);
+						toAdd.push(cave1);
                         
                         cave3alt = new FlxSprite(-850, -400).loadGraphic(Paths.image('dischargeAssets/Discharge_Sky_ALT'));
                         cave3alt.setGraphicSize(Std.int(cave3alt.width * 0.9));
@@ -173,7 +175,7 @@ class Stage extends MusicBeatState
                         cave3alt.alpha = 0;
                         cave3alt.scrollFactor.set(0.9, 0.9);
                         cave3alt.active = false;
-                        add(cave3alt);
+                        toAdd.push(cave3alt);
 
                         cave2alt = new FlxSprite(-600, 100).loadGraphic(Paths.image('dischargeAssets/Discharge_Mountains_ALT'));
                         cave2alt.setGraphicSize(Std.int(cave2alt.width * 0.9));
@@ -181,7 +183,7 @@ class Stage extends MusicBeatState
                         cave2alt.alpha = 0;
                         cave2alt.scrollFactor.set(0.9, 0.9);
                         cave2alt.active = false;
-                        add(cave2alt);
+                        toAdd.push(cave2alt);
 
                         cave1alt = new FlxSprite(-960, -500).loadGraphic(Paths.image('dischargeAssets/Discharge_Floor_ALT'));
                         cave1alt.setGraphicSize(Std.int(cave1alt.width * 0.9));
@@ -189,7 +191,7 @@ class Stage extends MusicBeatState
                         cave1alt.alpha = 0;
                         cave1alt.scrollFactor.set(0.9, 0.9);
                         cave1alt.active = false;
-                        add(cave1alt);
+                        toAdd.push(cave1alt);
 
 							crack1 = new FlxSprite(0, 200);
 							crack1.frames = Paths.getSparrowAtlas('dischargeAssets/Crack1');
@@ -199,7 +201,7 @@ crack1.animation.play('idle');
 
 							crack1.antialiasing = true;
 							crack1.scrollFactor.set(0.9, 0.9);
-							add(crack1);
+							toAdd.push(crack1);
 
 							crack2 = new FlxSprite(0, 200);
 							crack2.frames = Paths.getSparrowAtlas('dischargeAssets/Crack2');
@@ -209,7 +211,7 @@ crack2.animation.play('idle');
 
 							crack2.antialiasing = true;
 							crack2.scrollFactor.set(0.9, 0.9);
-							add(crack2);
+							toAdd.push(crack2);
 
 							crack3 = new FlxSprite(0, 200);
 							crack3.frames = Paths.getSparrowAtlas('dischargeAssets/Crack3');
@@ -219,49 +221,49 @@ crack3.animation.play('idle');
 
 							crack3.antialiasing = true;
 							crack3.scrollFactor.set(0.9, 0.9);
-							add(crack3);
+							toAdd.push(crack3);
 
                         guitar = new FlxSprite(800, 700).loadGraphic(Paths.image('dischargeAssets/Guitar'));
                         guitar.antialiasing = true;
                         guitar.alpha = 0;
                         guitar.scrollFactor.set(0.9, 0.9);
                         guitar.active = false;
-                        add(guitar);
+                        toAdd.push(guitar);
 
                         bfCrack1 = new FlxSprite(550, 300).loadGraphic(Paths.image('dischargeAssets/EndCrack_BF_1'));
                         bfCrack1.antialiasing = true;
                         bfCrack1.alpha = 0;
                         bfCrack1.scrollFactor.set(0.9, 0.9);
                         bfCrack1.active = false;
-                        add(bfCrack1);
+                        toAdd.push(bfCrack1);
 
                         bfCrack2 = new FlxSprite(550, 0).loadGraphic(Paths.image('dischargeAssets/EndCrack_BF_2'));
                         bfCrack2.antialiasing = true;
                         bfCrack2.alpha = 0;
                         bfCrack2.scrollFactor.set(0.9, 0.9);
                         bfCrack2.active = false;
-                        add(bfCrack2);
+                        toAdd.push(bfCrack2);
 
                         soulbfCrack1 = new FlxSprite(-250, 150).loadGraphic(Paths.image('dischargeAssets/EndCrack_SoulBF_1'));
                         soulbfCrack1.antialiasing = true;
                         soulbfCrack1.alpha = 0;
                         soulbfCrack1.scrollFactor.set(0.9, 0.9);
                         soulbfCrack1.active = false;
-                        add(soulbfCrack1);
+                        toAdd.push(soulbfCrack1);
 
                         soulbfCrack2 = new FlxSprite(-150, 150).loadGraphic(Paths.image('dischargeAssets/EndCrack_SoulBF_2'));
                         soulbfCrack2.antialiasing = true;
                         soulbfCrack2.alpha = 0;
                         soulbfCrack2.scrollFactor.set(0.9, 0.9);
                         soulbfCrack2.active = false;
-                        add(soulbfCrack2);
+                        toAdd.push(soulbfCrack2);
 
                         bfCrack2 = new FlxSprite(550, 300).loadGraphic(Paths.image('dischargeAssets/EndCrack_BF_2'));
                         bfCrack2.antialiasing = true;
                         bfCrack2.alpha = 0;
                         bfCrack2.scrollFactor.set(0.9, 0.9);
                         bfCrack2.active = false;
-                        add(bfCrack2);
+                        toAdd.push(bfCrack2);
                             
                             zapEffect = new FlxSprite(-300, -200);
                             zapEffect.frames = Paths.getSparrowAtlas('dischargeAssets/ZapEffect');
@@ -270,7 +272,7 @@ crack3.animation.play('idle');
                             zapEffect.setGraphicSize(Std.int(zapEffect.width * 1.5));
                             zapEffect.antialiasing = true;
                             zapEffect.scrollFactor.set(0.9, 0.9);
-                            add(zapEffect);
+                            toAdd.push(zapEffect);
                             
                             portal1 = new FlxSprite(550, 350);
                             portal1.frames = Paths.getSparrowAtlas('dischargeAssets/BFPortal');
@@ -280,7 +282,7 @@ crack3.animation.play('idle');
                             portal1.setGraphicSize(Std.int(portal1.width * 0.7));
                             portal1.antialiasing = true;
                             portal1.scrollFactor.set(0.9, 0.9);
-                            add(portal1);
+                            toAdd.push(portal1);
                                                         
                             portal2 = new FlxSprite(-630, 120);
                             portal2.frames = Paths.getSparrowAtlas('dischargeAssets/SoulBFPortal');
@@ -290,75 +292,75 @@ crack3.animation.play('idle');
                             portal2.setGraphicSize(Std.int(portal2.width * 1.5));
                             portal2.antialiasing = true;
                             portal2.scrollFactor.set(0.9, 0.9);
-                            add(portal2);
+                            toAdd.push(portal2);
                             explode = new FlxSprite(-600, -200);
                             explode.frames = Paths.getSparrowAtlas('dischargeAssets/Discharge_BG_Break');
                             explode.animation.addByPrefix('idle', 'Break', 24, false);
                             explode.alpha = 0;
                             explode.antialiasing = true;
                             explode.scrollFactor.set(0.9, 0.9);
-                            add(explode);
+                            toAdd.push(explode);
 
                           missme = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/MissMe'));
                           missme.alpha = 0;
                           missme.cameras = [camHUD];
                           missme.setGraphicSize(Std.int(missme.width * 0.84));
-                          add(missme);
+                          toAdd.push(missme);
                           round2 = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/Round2'));
                           round2.alpha = 0;
                           round2.cameras = [camHUD];
                           round2.setGraphicSize(Std.int(round2.width * 0.84));
-                          add(round2);
+                          toAdd.push(round2);
                           keepup = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/KeepUp'));
                           keepup.alpha = 0;
                           keepup.cameras = [camHUD];
                           keepup.setGraphicSize(Std.int(keepup.width * 0.84));
-                          add(keepup);
+                          toAdd.push(keepup);
                           remember = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/Remember'));
                           remember.alpha = 0;
                           remember.cameras = [camHUD];
                           remember.setGraphicSize(Std.int(remember.width * 0.84));
-                          add(remember);
+                          toAdd.push(remember);
                           friends = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/Friends'));
                           friends.alpha = 0;
                           friends.cameras = [camHUD];
                           friends.setGraphicSize(Std.int(friends.width * 0.84));
-                          add(friends);
+                          toAdd.push(friends);
                           planning = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/Planning'));
                           planning.alpha = 0;
                           planning.cameras = [camHUD];
                           planning.setGraphicSize(Std.int(planning.width * 0.84));
-                          add(planning);
+                          toAdd.push(planning);
                           lmaoNo = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/DidntThinkSo'));
                           lmaoNo.alpha = 0;
                           lmaoNo.cameras = [camHUD];
                           lmaoNo.setGraphicSize(Std.int(lmaoNo.width * 0.84));
-                          add(lmaoNo);
+                          toAdd.push(lmaoNo);
                           ditch = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/ReadyToDitch'));
                           ditch.alpha = 0;
                           ditch.cameras = [camHUD];
                           ditch.setGraphicSize(Std.int(ditch.width * 0.84));
-                          add(ditch);
+                          toAdd.push(ditch);
                           mystyle = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/MoreMyStyle'));
                           mystyle.alpha = 0;
                           mystyle.cameras = [camHUD];
                           mystyle.setGraphicSize(Std.int(mystyle.width * 0.84));
-                          add(mystyle);
+                          toAdd.push(mystyle);
                           endthisShit = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/EndThis'));
                           endthisShit.alpha = 0;
                           endthisShit.cameras = [camHUD];
                           endthisShit.setGraphicSize(Std.int(endthisShit.width * 0.84));
-                          add(endthisShit);
+                          toAdd.push(endthisShit);
                           fuckingfocus = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/Focus'));
                           fuckingfocus.alpha = 0;
                           fuckingfocus.cameras = [camHUD];
                           fuckingfocus.setGraphicSize(Std.int(fuckingfocus.width * 0.84));
-                          add(fuckingfocus);
+                          toAdd.push(fuckingfocus);
                           comeON = new FlxSprite(-1050, -550).loadGraphic(Paths.image('dischargeAssets/SoulBFText/ComeOn'));
                           comeON.alpha = 0;
                           comeON.cameras = [camHUD];
                           comeON.setGraphicSize(Std.int(comeON.width * 0.84));
-                          add(comeON);
+                          toAdd.push(comeON);
 
                             thePhoto = new FlxSprite(lmaoNo.x, lmaoNo.y);
                             thePhoto.frames = Paths.getSparrowAtlas('dischargeAssets/PhotoShit');
@@ -367,8 +369,8 @@ crack3.animation.play('idle');
                             thePhoto.antialiasing = true;
                             thePhoto.alpha = 0;
                             thePhoto.scrollFactor.set(0.9, 0.9);
-                            add(thePhoto);
-                  }
+                            toAdd.push(thePhoto);
+                               }
 			case 'limo':
 				{
 					camZoom = 0.90;
@@ -403,7 +405,7 @@ crack3.animation.play('idle');
 						{
 							var dancer:BackgroundDancer = new BackgroundDancer((370 * i) + 130, bgLimo.y - 400);
 							dancer.scrollFactor.set(0.4, 0.4);
-							grpLimoDancers.add(dancer);
+							grpLimoDancers.toAdd.push(dancer);
 							swagBacks['dancer' + i] = dancer;
 						}
 
@@ -414,7 +416,7 @@ crack3.animation.play('idle');
 
 					var overlayShit:FlxSprite = new FlxSprite(-500, -600).loadGraphic(Paths.loadImage('limo/limoOverlay', 'week4'));
 					overlayShit.alpha = 0.5;
-					// add(overlayShit);
+					// toAdd.push(overlayShit);
 
 					// var shaderBullshit = new BlendModeEffect(new OverlayShader(), FlxColor.RED);
 
@@ -556,7 +558,7 @@ crack3.animation.play('idle');
 					var bgTrees:FlxSprite = new FlxSprite(repositionShit - 380, -800);
 					var treetex = Paths.getPackerAtlas('weeb/weebTrees', 'week6');
 					bgTrees.frames = treetex;
-					bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
+					bgTrees.animation.toAdd.push('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
 					bgTrees.animation.play('treeLoop');
 					bgTrees.scrollFactor.set(0.85, 0.85);
 					swagBacks['bgTrees'] = bgTrees;
@@ -626,12 +628,12 @@ crack3.animation.play('idle');
 						bg.scale.set(6, 6);
 						// bg.setGraphicSize(Std.int(bg.width * 6));
 						// bg.updateHitbox();
-						add(bg);
+						toAdd.push(bg);
 						var fg:FlxSprite = new FlxSprite(posX, posY).loadGraphic(Paths.loadImage('weeb/evilSchoolFG'));
 						fg.scale.set(6, 6);
 						// fg.setGraphicSize(Std.int(fg.width * 6));
 						// fg.updateHitbox();
-						add(fg);
+						toAdd.push(fg);
 						wiggleShit.effectType = WiggleEffectType.DREAMY;
 						wiggleShit.waveAmplitude = 0.01;
 						wiggleShit.waveFrequency = 60;
@@ -655,8 +657,8 @@ crack3.animation.play('idle');
 						// waveSprite.updateHitbox();
 						// waveSpriteFG.setGraphicSize(Std.int(fg.width * 6));
 						// waveSpriteFG.updateHitbox();
-						add(waveSprite);
-						add(waveSpriteFG);
+						toAdd.push(waveSprite);
+						toAdd.push(waveSpriteFG);
 					 */
 				}
 			default:
