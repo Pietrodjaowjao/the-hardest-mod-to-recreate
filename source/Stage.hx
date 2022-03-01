@@ -27,48 +27,8 @@ class Stage extends MusicBeatState
 	public var slowBacks:Map<Int,
 		Array<FlxSprite>> = []; // Change/add/remove backgrounds mid song! Format: "slowBacks[StepToBeActivated] = [Sprites,To,Be,Changed,Or,Added];"
 
-	var neurosesbg:FlxSprite;
-	var neurosesbg2:FlxSprite;
-	var neurosesbg3:FlxSprite;
-	var neurosestv2:FlxSprite;
-	var spikes:FlxSprite;
-	var duskcut:FlxSprite;
-    // shit for discharge
-	var cave1:FlxSprite;
-	var cave2:FlxSprite;
-	var space:FlxSprite;
-	var popup:FlxSprite;
-	var cave3:FlxSprite;
-	var guitarStrumline:FlxSprite;
-    var cave1alt:FlxSprite;
-    var cave2alt:FlxSprite;
-    var cave3alt:FlxSprite;
-	var crack1:FlxSprite;
-	var crack2:FlxSprite;
-	var crack3:FlxSprite;
-	var funnyWhite:FlxSprite;
-    var bfCrack1:FlxSprite;
-	var bfCrack2:FlxSprite;
-	var soulbfCrack1:FlxSprite;
-	var soulbfCrack2:FlxSprite;
-	var explode:FlxSprite;
-    var zapEffect:FlxSprite;
-    var portal1:FlxSprite;
-    var portal2:FlxSprite;
-	var missme:FlxSprite;
-	var round2:FlxSprite;
-	var keepup:FlxSprite;
-	var remember:FlxSprite;
-	var friends:FlxSprite;
-	var planning:FlxSprite;
-	var lmaoNo:FlxSprite;
-	var ditch:FlxSprite;
-	var mystyle:FlxSprite;
-	var endthisShit:FlxSprite;
-	var fuckingfocus:FlxSprite;
-	var comeON:FlxSprite;
-	var thePhoto:FlxSprite;
-	var guitar:FlxSprite;
+	public var camHUD:FlxCamera;   // Preset to add objects behind camHUD without going to PlayState
+
 	// BGs still must be added by using toAdd Array for them to show in game after slowBacks take effect!!
 	// BGs still must be added by using toAdd Array for them to show in game after slowBacks take effect!!
 	// All of the above must be set or used in your stage case code block!!
@@ -110,58 +70,6 @@ class Stage extends MusicBeatState
 					halloweenBG.antialiasing = FlxG.save.data.antialiasing;
 					swagBacks['halloweenBG'] = halloweenBG;
 					toAdd.push(halloweenBG);
-				}
-			case 'philly':
-				{
-					var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.loadImage('philly/sky', 'week3'));
-					bg.scrollFactor.set(0.1, 0.1);
-					swagBacks['bg'] = bg;
-					toAdd.push(bg);
-
-					var city:FlxSprite = new FlxSprite(-10).loadGraphic(Paths.loadImage('philly/city', 'week3'));
-					city.scrollFactor.set(0.3, 0.3);
-					city.setGraphicSize(Std.int(city.width * 0.85));
-					city.updateHitbox();
-					swagBacks['city'] = city;
-					toAdd.push(city);
-
-					var phillyCityLights = new FlxTypedGroup<FlxSprite>();
-					if (FlxG.save.data.distractions)
-					{
-						swagGroup['phillyCityLights'] = phillyCityLights;
-						toAdd.push(phillyCityLights);
-					}
-
-					for (i in 0...5)
-					{
-						var light:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.loadImage('philly/win' + i, 'week3'));
-						light.scrollFactor.set(0.3, 0.3);
-						light.visible = false;
-						light.setGraphicSize(Std.int(light.width * 0.85));
-						light.updateHitbox();
-						light.antialiasing = FlxG.save.data.antialiasing;
-						phillyCityLights.toAdd.push(light);
-					}
-
-					var streetBehind:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.loadImage('philly/behindTrain', 'week3'));
-					swagBacks['streetBehind'] = streetBehind;
-					toAdd.push(streetBehind);
-
-					var phillyTrain = new FlxSprite(2000, 360).loadGraphic(Paths.loadImage('philly/train', 'week3'));
-					if (FlxG.save.data.distractions)
-					{
-						swagBacks['phillyTrain'] = phillyTrain;
-						toAdd.push(phillyTrain);
-					}
-
-					trainSound = new FlxSound().loadEmbedded(Paths.sound('train_passes', 'shared'));
-					FlxG.sound.list.toAdd.push(trainSound);
-
-					// var cityLights:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.win0.png);
-
-					var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.loadImage('philly/street', 'week3'));
-					swagBacks['street'] = street;
-					toAdd.push(street);
 				}
 			case 'BFMind3':
 				{
@@ -413,6 +321,58 @@ crack3.animation.play('idle');
                             thePhoto.scrollFactor.set(0.9, 0.9);
                             toAdd.push(thePhoto);
                                }
+			case 'philly':
+				{
+					var bg:FlxSprite = new FlxSprite(-100).loadGraphic(Paths.loadImage('philly/sky', 'week3'));
+					bg.scrollFactor.set(0.1, 0.1);
+					swagBacks['bg'] = bg;
+					toAdd.push(bg);
+
+					var city:FlxSprite = new FlxSprite(-10).loadGraphic(Paths.loadImage('philly/city', 'week3'));
+					city.scrollFactor.set(0.3, 0.3);
+					city.setGraphicSize(Std.int(city.width * 0.85));
+					city.updateHitbox();
+					swagBacks['city'] = city;
+					toAdd.push(city);
+
+					var phillyCityLights = new FlxTypedGroup<FlxSprite>();
+					if (FlxG.save.data.distractions)
+					{
+						swagGroup['phillyCityLights'] = phillyCityLights;
+						toAdd.push(phillyCityLights);
+					}
+
+					for (i in 0...5)
+					{
+						var light:FlxSprite = new FlxSprite(city.x).loadGraphic(Paths.loadImage('philly/win' + i, 'week3'));
+						light.scrollFactor.set(0.3, 0.3);
+						light.visible = false;
+						light.setGraphicSize(Std.int(light.width * 0.85));
+						light.updateHitbox();
+						light.antialiasing = FlxG.save.data.antialiasing;
+						phillyCityLights.add(light);
+					}
+
+					var streetBehind:FlxSprite = new FlxSprite(-40, 50).loadGraphic(Paths.loadImage('philly/behindTrain', 'week3'));
+					swagBacks['streetBehind'] = streetBehind;
+					toAdd.push(streetBehind);
+
+					var phillyTrain = new FlxSprite(2000, 360).loadGraphic(Paths.loadImage('philly/train', 'week3'));
+					if (FlxG.save.data.distractions)
+					{
+						swagBacks['phillyTrain'] = phillyTrain;
+						toAdd.push(phillyTrain);
+					}
+
+					trainSound = new FlxSound().loadEmbedded(Paths.sound('train_passes', 'shared'));
+					FlxG.sound.list.add(trainSound);
+
+					// var cityLights:FlxSprite = new FlxSprite().loadGraphic(AssetPaths.win0.png);
+
+					var street:FlxSprite = new FlxSprite(-40, streetBehind.y).loadGraphic(Paths.loadImage('philly/street', 'week3'));
+					swagBacks['street'] = street;
+					toAdd.push(street);
+				}
 			case 'limo':
 				{
 					camZoom = 0.90;
@@ -447,7 +407,7 @@ crack3.animation.play('idle');
 						{
 							var dancer:BackgroundDancer = new BackgroundDancer((370 * i) + 130, bgLimo.y - 400);
 							dancer.scrollFactor.set(0.4, 0.4);
-							grpLimoDancers.toAdd.push(dancer);
+							grpLimoDancers.add(dancer);
 							swagBacks['dancer' + i] = dancer;
 						}
 
@@ -458,7 +418,7 @@ crack3.animation.play('idle');
 
 					var overlayShit:FlxSprite = new FlxSprite(-500, -600).loadGraphic(Paths.loadImage('limo/limoOverlay', 'week4'));
 					overlayShit.alpha = 0.5;
-					// toAdd.push(overlayShit);
+					// add(overlayShit);
 
 					// var shaderBullshit = new BlendModeEffect(new OverlayShader(), FlxColor.RED);
 
@@ -600,7 +560,7 @@ crack3.animation.play('idle');
 					var bgTrees:FlxSprite = new FlxSprite(repositionShit - 380, -800);
 					var treetex = Paths.getPackerAtlas('weeb/weebTrees', 'week6');
 					bgTrees.frames = treetex;
-					bgTrees.animation.toAdd.push('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
+					bgTrees.animation.add('treeLoop', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], 12);
 					bgTrees.animation.play('treeLoop');
 					bgTrees.scrollFactor.set(0.85, 0.85);
 					swagBacks['bgTrees'] = bgTrees;
@@ -670,12 +630,12 @@ crack3.animation.play('idle');
 						bg.scale.set(6, 6);
 						// bg.setGraphicSize(Std.int(bg.width * 6));
 						// bg.updateHitbox();
-						toAdd.push(bg);
+						add(bg);
 						var fg:FlxSprite = new FlxSprite(posX, posY).loadGraphic(Paths.loadImage('weeb/evilSchoolFG'));
 						fg.scale.set(6, 6);
 						// fg.setGraphicSize(Std.int(fg.width * 6));
 						// fg.updateHitbox();
-						toAdd.push(fg);
+						add(fg);
 						wiggleShit.effectType = WiggleEffectType.DREAMY;
 						wiggleShit.waveAmplitude = 0.01;
 						wiggleShit.waveFrequency = 60;
@@ -699,8 +659,8 @@ crack3.animation.play('idle');
 						// waveSprite.updateHitbox();
 						// waveSpriteFG.setGraphicSize(Std.int(fg.width * 6));
 						// waveSpriteFG.updateHitbox();
-						toAdd.push(waveSprite);
-						toAdd.push(waveSpriteFG);
+						add(waveSprite);
+						add(waveSpriteFG);
 					 */
 				}
 			default:
@@ -999,3 +959,4 @@ crack3.animation.play('idle');
 		}
 	}
 }
+

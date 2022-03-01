@@ -226,6 +226,24 @@ class PlayState extends MusicBeatState
 
 	var fc:Bool = true;
 
+	var wiggleShit:WiggleEffect = new WiggleEffect();
+
+	var talking:Bool = true;
+
+	public static var currentSong = "noneYet";
+
+	public var songScore:Int = 0;
+
+	var songScoreDef:Int = 0;
+	var scoreTxt:FlxText;
+	var judgementCounter:FlxText;
+	var replayTxt:FlxText;
+
+	var needSkip:Bool = false;
+	var skipActive:Bool = false;
+	var skipText:FlxText;
+	var skipTo:Float;
+
 	var neurosesbg:FlxSprite;
 	var neurosesbg2:FlxSprite;
 	var neurosesbg3:FlxSprite;
@@ -268,24 +286,6 @@ class PlayState extends MusicBeatState
 	var comeON:FlxSprite;
 	var thePhoto:FlxSprite;
 	var guitar:FlxSprite;
-
-	var wiggleShit:WiggleEffect = new WiggleEffect();
-
-	var talking:Bool = true;
-
-	public static var currentSong = "noneYet";
-
-	public var songScore:Int = 0;
-
-	var songScoreDef:Int = 0;
-	var scoreTxt:FlxText;
-	var judgementCounter:FlxText;
-	var replayTxt:FlxText;
-
-	var needSkip:Bool = false;
-	var skipActive:Bool = false;
-	var skipText:FlxText;
-	var skipTo:Float;
 
 	public static var campaignScore:Int = 0;
 
