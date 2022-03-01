@@ -226,6 +226,49 @@ class PlayState extends MusicBeatState
 
 	var fc:Bool = true;
 
+	var neurosesbg:FlxSprite;
+	var neurosesbg2:FlxSprite;
+	var neurosesbg3:FlxSprite;
+	var neurosestv2:FlxSprite;
+	var spikes:FlxSprite;
+	var duskcut:FlxSprite;
+    // shit for discharge
+	var cave1:FlxSprite;
+	var cave2:FlxSprite;
+	var space:FlxSprite;
+	var popup:FlxSprite;
+	var cave3:FlxSprite;
+	var guitarStrumline:FlxSprite;
+    var cave1alt:FlxSprite;
+    var cave2alt:FlxSprite;
+    var cave3alt:FlxSprite;
+	var crack1:FlxSprite;
+	var crack2:FlxSprite;
+	var crack3:FlxSprite;
+	var funnyWhite:FlxSprite;
+    var bfCrack1:FlxSprite;
+	var bfCrack2:FlxSprite;
+	var soulbfCrack1:FlxSprite;
+	var soulbfCrack2:FlxSprite;
+	var explode:FlxSprite;
+    var zapEffect:FlxSprite;
+    var portal1:FlxSprite;
+    var portal2:FlxSprite;
+	var missme:FlxSprite;
+	var round2:FlxSprite;
+	var keepup:FlxSprite;
+	var remember:FlxSprite;
+	var friends:FlxSprite;
+	var planning:FlxSprite;
+	var lmaoNo:FlxSprite;
+	var ditch:FlxSprite;
+	var mystyle:FlxSprite;
+	var endthisShit:FlxSprite;
+	var fuckingfocus:FlxSprite;
+	var comeON:FlxSprite;
+	var thePhoto:FlxSprite;
+	var guitar:FlxSprite;
+
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 
 	var talking:Bool = true;
